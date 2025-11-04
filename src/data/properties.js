@@ -1,0 +1,142 @@
+export const properties = [
+  {
+    id: 'hn-emerald-lake',
+    name: 'Emerald Lake Retreat',
+    city: 'Hà Nội',
+    region: 'Ba Vì, Hà Nội',
+    price: 1450000,
+    rating: 4.8,
+    reviews: 128,
+    guests: 6,
+    bedrooms: 3,
+    bathrooms: 2,
+    area: 120,
+    cover:
+      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1000&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1000&q=80',
+    ],
+    amenities: ['Hồ bơi ngoài trời', 'BBQ', 'Bếp đầy đủ dụng cụ', 'Lò sưởi', 'Bãi đỗ xe riêng', 'View hồ'],
+    highlights: [
+      'Không gian xanh mướt, tách biệt khỏi thành phố',
+      'Thích hợp cho nhóm bạn hoặc gia đình nhỏ',
+      'Dịch vụ chuẩn 5 sao với quản gia riêng',
+    ],
+    description:
+      'Emerald Lake Retreat mang đến trải nghiệm nghỉ dưỡng cao cấp với không gian xanh mát, hồ bơi riêng và view hồ thơ mộng. Homestay được trang bị đầy đủ tiện nghi và dịch vụ chăm sóc tận tâm.',
+  },
+  {
+    id: 'dn-sky-villa',
+    name: 'Sky Villa Da Nang',
+    city: 'Đà Nẵng',
+    region: 'Sơn Trà, Đà Nẵng',
+    price: 1950000,
+    rating: 4.9,
+    reviews: 201,
+    guests: 8,
+    bedrooms: 4,
+    bathrooms: 3,
+    area: 180,
+    cover:
+      'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1000&q=80',
+    ],
+    amenities: ['View biển', 'Hồ bơi vô cực', 'Phòng gym', 'Phòng karaoke', 'Xe đưa đón sân bay'],
+    highlights: [
+      'View biển Mỹ Khê siêu đẹp',
+      'Nhiều tiện ích giải trí cho nhóm đông',
+      'Ẩm thực địa phương phong phú ngay gần homestay',
+    ],
+    description:
+      'Sky Villa Da Nang nổi bật với hồ bơi vô cực nhìn thẳng ra biển Mỹ Khê, phòng khách rộng rãi và khu bếp hiện đại. Đây là lựa chọn lý tưởng cho nhóm bạn hoặc gia đình lớn muốn tận hưởng kỳ nghỉ sang trọng.',
+  },
+  {
+    id: 'dl-nest',
+    name: 'The Nest Đà Lạt',
+    city: 'Đà Lạt',
+    region: 'Phường 3, Đà Lạt',
+    price: 980000,
+    rating: 4.7,
+    reviews: 173,
+    guests: 4,
+    bedrooms: 2,
+    bathrooms: 2,
+    area: 95,
+    cover:
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1000&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1000&q=80',
+    ],
+    amenities: ['Vườn hoa riêng', 'View rừng thông', 'Lò sưởi điện', 'Xe đạp miễn phí', 'Trà chiều địa phương'],
+    highlights: [
+      'Thiết kế ấm cúng, gợi nhớ phong cách Bắc Âu',
+      'View rừng thông và thung lũng tuyệt đẹp',
+      'Nhiều hoạt động trải nghiệm văn hoá bản địa',
+    ],
+    description:
+      'The Nest Đà Lạt là homestay gỗ ấm áp, được bao quanh bởi rừng thông và vườn hoa rực rỡ. Du khách có thể tận hưởng không gian yên bình, thưởng thức trà chiều và khám phá các làng nghề địa phương.',
+  },
+  {
+    id: 'sg-urban-loft',
+    name: 'Urban Loft Sài Gòn',
+    city: 'TP. Hồ Chí Minh',
+    region: 'Quận 1, TP. Hồ Chí Minh',
+    price: 1550000,
+    rating: 4.6,
+    reviews: 98,
+    guests: 3,
+    bedrooms: 1,
+    bathrooms: 1,
+    area: 65,
+    cover:
+      'https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=1000&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1464972377689-1a73df5c18c2?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1000&q=80',
+    ],
+    amenities: ['View thành phố', 'Bar mini', 'Máy chiếu phim', 'Gian bếp mở', 'Gần phố đi bộ Nguyễn Huệ'],
+    highlights: [
+      'Phong cách công nghiệp cá tính',
+      'Ngay trung tâm thành phố, di chuyển tiện lợi',
+      'Dịch vụ concierge 24/7',
+    ],
+    description:
+      'Urban Loft Sài Gòn mang lại trải nghiệm hiện đại, trẻ trung ngay giữa trung tâm thành phố. Không gian mở thoáng đãng với nội thất tinh tế, phù hợp cho các cặp đôi hoặc chuyến công tác dài ngày.',
+  },
+  {
+    id: 'pq-coral-house',
+    name: 'Coral House Phú Quốc',
+    city: 'Phú Quốc',
+    region: 'Bãi Sao, Phú Quốc',
+    price: 2250000,
+    rating: 5,
+    reviews: 87,
+    guests: 10,
+    bedrooms: 5,
+    bathrooms: 4,
+    area: 210,
+    cover:
+      'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1000&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1000&q=80',
+      'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1000&q=80',
+    ],
+    amenities: ['Bãi biển riêng', 'Thuyền kayak', 'Dịch vụ BBQ hải sản', 'Hồ bơi gia đình', 'Khu vui chơi trẻ em'],
+    highlights: [
+      'Trải nghiệm bình minh trên bãi biển riêng',
+      'Ẩm thực biển phong phú, chế biến tại chỗ',
+      'Không gian rộng cho đại gia đình hoặc công ty',
+    ],
+    description:
+      'Coral House Phú Quốc là biệt thự ven biển với bãi biển riêng tư, hồ bơi lớn và dịch vụ BBQ hải sản tươi sống. Đây là lựa chọn lý tưởng cho kỳ nghỉ dưỡng sang trọng tại đảo ngọc.',
+  },
+];
